@@ -1,0 +1,1738 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    scroll-behavior: smooth;
+    background-color: #EDEDED;
+    overflow-x: hidden;
+}
+
+/*------------------------------------------------------------ HERO SECTION --*/
+.hero {
+    height: 100%;
+    background-image: url(img/hero/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35% center;
+    position: relative;
+}
+
+.logo{
+    width: 90px !important;
+    height: 90px !important;
+    margin-top: 30px !important;
+    margin-left: 30px !important;
+    background-image: url(img/hero/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nombre{
+    width: 100px;
+}
+
+.titulo{
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 500;
+    left: 80px;
+    top: 5px
+}
+
+.nombre h2{
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 500;
+    left: 80px;
+    top: 28px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width:95%;
+    margin-right: 10px;
+}
+
+header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width:95%;
+    margin-right: 10px;
+}
+
+.izq{
+    display: flex;
+}
+
+nav{
+    display: none;
+}
+
+.collapsed{
+    width: 40px;
+    height: 40px;
+    background-image: url(img/hero/collpase.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.display{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    background-color: black;  
+    height: 100%;
+    right: 0;
+    top: 50px;
+    position: absolute;
+    width: 40%;
+    padding-bottom: 150px;
+    z-index: 9999;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul li{
+    margin-top: 20px;
+    display: block;
+    width: 110px;
+    z-index: 99999;
+}
+
+.centrado{
+    margin-top: 30%;
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+
+.frasePrincipal{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+
+.frasePrincipal1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+
+.btn{
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    margin-left: 10%;
+    width: 140px;
+    height: 50px;
+    border: 3px solid white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    left: 70px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: all .5s ease;
+}
+
+.btn-content{   
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/*------------------------------------------------------------ WELCOME SECTION --*/
+
+.bgWelcome{
+    background-color: #EDEDED;
+    width: 100%;
+    height: auto;
+}
+
+.titleHungria{
+    padding-top: 70px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.linea{
+    width: 60%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+
+.parrafoHungria{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.parrafoHungria1{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+
+.fotoRio {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url(img/hero/rio-fullwidth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 60%;
+    position: relative;
+}
+
+.textoRio{
+    position: absolute;
+    left: 140px;
+    top: 90px;
+    text-align: center;
+    width: 60%;
+    font-size: 1em;
+    font-weight: 900;
+    z-index: 99999;
+}
+
+.mapaHungria{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url(img/hero/mapaHungria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.fotoOtonio{
+    flex: 1;
+    height: 200px;
+    min-width: 320px;
+    background-image: url(img/hero/hungria-bosque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textOtonio{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.fotoIslaMargarita{
+    margin-top: 50px;
+    height: 200px;
+    min-width: 320px;
+    background-image: url(img/hero/islaMargarita.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoIslaMargarita1{
+    flex: 1;
+    height: 200px;
+    min-width: 320px;
+    background-image: url(img/hero/islaMargarita.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textIsla{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.fotoVelho{
+    flex: 1;
+    height: 200px;
+    min-width: 320px;
+    background-image: url(img/hero/hungriaCastle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textVelho{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.fotoCueva{
+    flex: 1;
+    margin-top: 60px;
+    height: 200px;
+    min-width: 320px;
+    background-image: url(img/hero/aggtelekCave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textCueva{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.flexHacer{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.hacer1{
+    width: 400px;
+    margin-top: 60px;
+    height: 400px;
+    min-width: 320px;
+    background-image: url(img/hero/queHacer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hacer2{
+    width: 400px;
+    margin-top: 60px;
+    height: 400px;
+    min-width: 320px;
+    background-image: url(img/hero/queHacer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hacer3{
+    width: 400px;
+    margin-top: 60px;
+    height: 400px;
+    min-width: 320px;
+    background-image: url(img/hero/queHacer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.galeryText{
+    color: #1B3174;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400px;
+}
+
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fotoGaleria1{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria2{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria3{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fotoGaleria4{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria5{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria6{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.fotoGaleria7{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria8{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoGaleria9{
+    flex: 1;
+    margin-top: 60px;
+    height: 320px;
+    min-width: 320px;
+    background-image: url(img/hero/galeria9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #1B3174;
+    margin-top: 0px;
+}
+
+.rowFlex{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1footer{
+    margin-top: 50px;
+    flex: 1;
+    min-width: 320px;
+}
+
+.titleFooter{
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.row1footer p{
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logoFooter{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(img/hero/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.visitHungary{
+    color: white;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.avisoLegal{
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.avisoLegal1{
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------
+------------------------------------LLEGAR SECTION--------------------------------*/
+
+
+.bgHero{
+    background-color: #1B3174;
+    height: 90px !important;
+    width: 100%;
+}
+
+.fotoLlegar{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/llegar/avion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bgLlegar{
+    margin: 0 auto;
+    background-color: #EDEDED;
+    width: 90%;
+    height: auto;
+}
+
+.parrafoLlegar{
+    margin: 0 auto;
+    width: 600px !important;
+    text-align: left;
+    margin-top: 230px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+.parrafoLlegar1{
+    margin: 0 auto;
+    width: 600px !important;
+    text-align: left;
+    margin-top: 60px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+.titleAvion{
+    font-size: 1.8em;
+    font-weight: 400;
+    color:#1B3174;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aero1{
+    margin-left: 15px;
+    width: 60%;
+    height: 30px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
+}
+
+.flexAeropuerto{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotoAero1{
+    flex: 1;
+    min-width: 320px;
+    height: 270px;
+    margin-top: 20px;
+    background-image: url(img/llegar/budapestAerop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoAero2{
+    margin-top: 40px;
+    flex: 1;
+    min-width: 320px;
+    height: 270px;
+    margin-top: 20px;
+    background-image: url(img/llegar/debrecenAeropuerto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoAero3{
+    margin-top: 40px;
+    flex: 1;
+    min-width: 320px;
+    height: 270px;
+    margin-top: 20px;
+    background-image: url(img/llegar/aeropuertoo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.textAero{
+    width: 70%;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+    margin-top: 40px;
+}
+
+.flexTren{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.parrafoLlegar2{
+    margin-top: 50px;
+    flex: 1;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+.fotoTren{
+    flex: 1;
+    min-width: 320px;
+    height: 270px;
+    margin-top: 20px;
+    background-image: url(img/llegar/trenHungria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.titleTren{
+    font-size: 1.8em;
+    font-weight: 400;
+    color:#1B3174;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fotoAbono{
+    margin: 0 auto;
+    width: 90%;
+    height: 250px;
+    margin-top: 30px;
+    background-image: url(img/llegar/abonoTren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fotoFinalLlegar{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 500px;
+    background-image: url(img/llegar/cruceroDanubio.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*-------------------------------------------------------------------------------
+------------------------------------CONTACT SECTION--------------------------------*/
+
+.titleContact{
+    padding-top: 40px;
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fotoContact{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/contact/fotoContact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.titulosContact{
+    width: 40%;
+    margin: 0 auto;
+    color: #1B3174;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.centrarContact{
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tituloContact{
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.div{
+    border: 1px solid black;
+    width: 600px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.div1{
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 600px;
+    height: 50px;
+}
+
+.div2{
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+}
+
+.rellenoDiv{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.btnEnviar{
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+}
+
+.rellenoBtn{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.btnEnviar:hover{
+    background-color: black;
+    transition: all .5s ease;
+}
+
+.rellenoBtn:hover{
+    color: white;
+    transition: all .5s ease;
+}
+
+.tituloContact1{
+    margin: 0 auto;
+    margin-top: 50px;
+    color:#1B3174;
+    width: 50%;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.separar{
+    width: 100%;
+    height: 50px;
+}
+
+
+/*-------------------------------------------------------------------------------
+------------------------------------ROUTES SECTION--------------------------------*/
+
+.parrafoRutas{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.3em;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.gris{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #303030;
+    position: relative;
+}
+
+.gris1{
+    width: 100%;
+    height: 50px;
+    background-color: #303030;
+    position: relative;
+}
+
+.ruta1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ruta2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ruta3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ruta1-left{
+    min-width: 320px;
+    flex: 1;
+    height: 300px;
+    background-color: white;  
+    position: relative;
+}
+
+.ruta1-left h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+}
+
+.ruta2-left{
+    min-width: 320px;
+    flex: 1;
+    height: 300px;
+    background-color: white;  
+    position: relative;
+}
+
+.ruta2-left h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+}
+
+.route-img {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.glider-contain {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.glider {
+    width: 100%;
+    height: 775px;
+}
+
+.glider2 {
+    width: 100%;
+    height: 775px;
+}
+
+.glider-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.glider-track {
+    height: 775px;
+}
+
+
+.route-1{
+    background-image: url(img/rutas/ruta1.jpg);
+}
+
+.route-12{
+    background-image: url(img/rutas/ruta11-2.jpg);
+}
+
+.route-13{
+    background-image: url(img/rutas/ruta1-3.jpg);
+}
+
+.route-14{
+    background-image: url(img/rutas/ruta1-4.jpg);
+}
+
+.route-2{
+    background-image: url(img/rutas/ruta2.jpg);
+}
+
+.route-22{
+    background-image: url(img/rutas/lagoTermal.jpg);
+}
+
+.route-23{
+    background-image: url(img/rutas/koszeg.jpg);
+}
+
+.route-24{
+    background-image: url(img/rutas/abadia.jpg);
+}
+
+.route-25{
+    background-image: url(img/rutas/vise.jpg);
+}
+
+.route-26{
+    background-image: url(img/rutas/Buda.jpg);
+}
+
+.route-27{
+    background-image: url(img/rutas/ruta1-3.jpg);
+}
+
+.route-3{
+    background-image: url(img/rutas/ruta3.jpg);
+}
+.route-32{
+    background-image: url(img/rutas/ruta3-2.jpg);
+}
+.route-33{
+    background-image: url(img/rutas/ruta3-3.jpg);
+}
+.route-34{
+    background-image: url(img/rutas/ruta3-4.jpg);
+}
+.route-35{
+    background-image: url(img/rutas/route3-5.webp);
+}
+.route-36{
+    background-image: url(img/rutas/ruta3-final.jpg);
+}
+
+.ruta2-right{
+    flex: 2;
+    min-width: 320px;
+    height: 300px;
+    background-image: url(img/rutas/ruta2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.ruta3-right{
+    flex: 2;
+    min-width: 320px;
+    height: 300px;
+    background-image: url(img/rutas/ruta3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.dia{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:#1B3174;
+    font-size: 4em;
+    font-weight: 400;
+    text-shadow: 1px 1px 4px black;
+    z-index: 999999;
+}
+
+.divText{
+    background-color: white;
+    opacity: 45%;
+    width: 350px;
+    height: 175px;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.divText2{
+    background-color: white;
+    opacity: 45%;
+    width: 350px;
+    height: 175px;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.divText:hover{
+    opacity: 80%;
+    width: 550px;
+    height: 275px;
+    transition: all .5s ease;
+}
+
+.divText2:hover{
+    opacity: 80%;
+    width: 575px;
+    height: 300px;
+    transition: all .5s ease;
+}
+
+.divText p:hover{
+    font-size: 1.3em;
+    transition: all .5s ease;
+}
+
+.divText p{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: black;
+    z-index: 99999;
+}
+
+.divText2 p:hover{
+    font-size: 1.3em;
+    transition: all .5s ease;
+}
+
+.divText2 p{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: black;
+    z-index: 99999;
+}
+
+.textoOtonioMedia{
+    display: none;
+}
+
+.textoIslaMedia{
+    display: none;
+}
+
+.textoVelhoMedia{
+    display: none;
+}
+
+.textoCuevaMedia{
+    display: none;
+}
+
+.flexMedia{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.flexMedia1{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.flexFooter{
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.avisoLegalMedia{
+    display: none;
+    flex: 1;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.visitHungaryMedia{
+    display: none;
+    flex: 1;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.avisoLegalMedia1{
+    display: none;
+    flex: 1;
+    color: white;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.parrafoLlegar3{
+    display: none;
+    margin: 0 auto;
+    width: 600px !important;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+/*---------------------------------------------------------------------------------
+----------------------------MEDIAQUERIE NAV----------------------------------------*/
+
+@media screen and (min-width: 690px){
+    .collapsed{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: static;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+    
+    .menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        position: static;
+        background: none;
+        height: 100%;
+        width: 90%;
+        transition: none;
+        font-size: 18px;
+    }
+    
+    nav a {
+        display: initial;
+    }
+
+    nav ul li{
+        text-shadow: 3px 3px 5px #000;
+    }
+    
+    .menu nav{
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    nav ul li{
+        z-index: 99999999;
+    }
+}
+
+
+/*---------------------------------------------------------------------------------
+----------------------------MEDIAQUERIE HOME----------------------------------------*/
+
+
+@media screen and (max-width: 660px) {
+    .fotoOtonio{
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero{
+        background-image: url(img/hero/hero.jpg);
+    }
+}
+
+
+@media screen and (min-width: 870px) {
+    
+    .hacer2{
+        margin-left: 120px;
+    }
+    .logoFooter{
+        display: block;
+    }
+    .avisoLegalMedia{
+        display: block;
+    }
+    .visitHungaryMedia{
+        display: block;
+    }
+    .avisoLegalMedia1{
+        display: block;
+    }
+    .avisoLegal{
+        display: none;
+    }
+    .avisoLegal1{
+        display: none;
+    }
+    .visitHungary{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1100px) {
+
+    .hacer3{
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .textOtonio{
+        display: none;
+    }
+    
+    .textIsla{
+        display: none;
+    }
+
+    .textVelho{
+        display: none;
+    }
+
+    .textCueva{
+        display: none;
+
+    }
+    .fotoIslaMargarita1{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .fotoCueva{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .textoOtonioMedia{
+        display: block;
+        flex: 1;
+    }
+    
+    .textoIslaMedia{
+        display: block;
+        flex: 1;
+    }
+
+    .textoVelhoMedia{
+        display: block;
+        flex: 1;
+    }
+    
+    .textoCuevaMedia{
+        display: block;
+        flex: 1;
+    }    
+}
+
+@media screen and (min-width: 1050px) {
+    .frasePrincipal1{
+        font-size: 3.5rem;
+    }
+    .frasePrincipal{
+        font-size: 3rem;
+    }
+    .centrado{
+        top: 350px;
+        left: 40px;
+    }
+    .btn{
+        left: 650px;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+    }
+
+    .titleHungria{
+        font-size: 1.4em;
+    }
+    .parrafoHungria{
+        width: 45%;
+        font-size: 1em;
+    }
+    .fotoIslaMargarita{
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 700px;
+        height: 400px;
+        background-image: url(img/hero/islaMargarita.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .parrafoHungria1{
+        padding-top: 75px;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 1.3em;
+    }
+    .fotoRio {
+        margin-top: 75px;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .textoRio{
+        left: 600px;
+        top: 220px;
+        text-align: left;
+        width: 40%;
+        font-size: 1.4em;
+    }
+    .mapaHungria{
+        margin: 0 auto;
+        margin-top: 110px;
+        width: 1000px;
+        height: 800px;
+        background-image: url(img/hero/mapaHungr.png);
+    }
+    .galeryText{
+        margin-top: 140px;
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .flex{
+        margin-top: 60px;
+    }
+    
+    .btn{
+        left: 900px;
+    }
+
+    .fotoOtonio{
+        height: 300px;
+    }
+    .fotoIslaMargarita1{
+        height: 300px;
+    }
+    .fotoVelho{
+        height: 300px;
+    }
+    .fotoCueva{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .btn{
+        left: 1100px;
+    }
+    .textoRio{
+        left: 1000px;
+        top: 225px;
+        text-align: left;
+        width: 30%;
+        font-size: 1.5em;
+    }
+
+    .fotoGaleria2{
+        margin-left: 20px;
+    }
+    .fotoGaleria3{
+        margin-left: 20px;
+    }
+    .fotoGaleria5{
+        margin-left: 20px;
+    }
+    .fotoGaleria6{
+        margin-left: 20px;
+    }
+    .fotoGaleria8{
+        margin-left: 20px;
+    }
+    .fotoGaleria9{
+        margin-left: 20px;
+    }
+}
+
+/*---------------------------------------------------------------------------------
+----------------------------MEDIAQUERIE LLEGAR----------------------------------------*/
+
+@media screen and (min-width: 1050px) {
+    .bgHero{
+        height: 140px;
+    }
+    .fotoAbono{
+        margin-top: 50px;
+        width: 60%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    
+    .fotoFinalLlegar{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    
+    .fotoFinalLlegar{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    .fotoFinalLlegar{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    
+    .aero1{
+        margin-left: 35px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .aero1{
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .parrafoLlegar{
+        width: 350px !important;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .parrafoLlegar1{
+        width: 350px !important;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .fotoTren{
+        margin-top: 225px;
+        margin-left: 10px;
+    }
+
+    .parrafoLlegar{
+        width: 70%;
+    }
+
+    .parrafoLlegar1{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .aero1{
+        display: none;
+    }
+    .textAero{
+        display: none;
+    }
+
+    .fotoAero2{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .fotoAero3{
+        margin-left: 15px;
+    }
+    .parrafoLlegar1{
+        width: 60%;
+    }
+    .parrafoLlegar3{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .fotoTren{
+        margin-top: 50px;
+        height: 350px;
+    }
+}
+
+/*---------------------------------------------------------------------------------
+----------------------------MEDIAQUERIE RUTAS----------------------------------------*/
+
+@media screen and (max-width: 560px) {
+    
+    .divText{
+        width: 100%;
+    }
+    
+    .divText2{
+        width: 100%;
+    }
+    .divText:hover{
+        opacity: 80%;
+        width: 100%;
+        height: 350px;
+        transition: all .5s ease;
+    }
+    
+    .divText2:hover{
+        opacity: 80%;
+        width: 100%;
+        height: 400px;
+        transition: all .5s ease;
+    }
+    
+    .divText p:hover{
+        font-size: 1.1em;
+        transition: all .5s ease;
+    }
+    
+    .divText2 p:hover{
+        font-size: 1.1em;
+        transition: all .5s ease;
+    }
+}
+
+/*---------------------------------------------------------------------------------
+----------------------------MEDIAQUERIE CONTACT----------------------------------------*/
+
+@media screen and (max-width: 750px) {
+    .div{
+        width: 400px;
+    }
+    
+    .div1{
+        width: 400px;
+    }
+    
+    .div2{
+        width: 400px;
+    }    
+}
+
+
+@media screen and (max-width: 460px) {
+    .div{
+        width: 300px;
+    }
+    
+    .div1{
+        width: 300px;
+    }
+    
+    .div2{
+        width: 300px;
+    } 
+}
