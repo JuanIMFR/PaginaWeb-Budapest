@@ -272,7 +272,8 @@ nav ul li{
 }
 
 .fotoOtonio{
-    flex: 1;
+    margin: 0 auto;
+    width: 750px;
     height: 200px;
     min-width: 320px;
     background-image: url(img/hero/hungria-bosque.jpg);
@@ -301,7 +302,8 @@ nav ul li{
 }
 
 .fotoIslaMargarita1{
-    flex: 1;
+    margin: 0 auto;
+    width: 750px;
     height: 200px;
     min-width: 320px;
     background-image: url(img/hero/islaMargarita.jpg);
@@ -320,7 +322,8 @@ nav ul li{
 }
 
 .fotoVelho{
-    flex: 1;
+    margin: 0 auto;
+    width: 750px;
     height: 200px;
     min-width: 320px;
     background-image: url(img/hero/hungriaCastle.jpg);
@@ -339,7 +342,8 @@ nav ul li{
 }
 
 .fotoCueva{
-    flex: 1;
+    margin: 0 auto;
+    width: 750px;
     margin-top: 60px;
     height: 200px;
     min-width: 320px;
@@ -368,6 +372,7 @@ nav ul li{
 }
 
 .hacer1{
+    margin: 0 auto;
     width: 400px;
     margin-top: 60px;
     height: 400px;
@@ -379,6 +384,7 @@ nav ul li{
 }
 
 .hacer2{
+    margin: 0 auto;
     width: 400px;
     margin-top: 60px;
     height: 400px;
@@ -390,6 +396,7 @@ nav ul li{
 }
 
 .hacer3{
+    margin: 0 auto;
     width: 400px;
     margin-top: 60px;
     height: 400px;
@@ -1555,6 +1562,35 @@ footer{
     }
 }
 
+@media screen and (max-width: 450px) {
+    .flexHacer{
+        width: 90%;
+    }
+
+    .flex{
+        width: 100%;
+    }
+
+    .flex1{
+        width: 100%;
+    }
+
+    .fotoOtonio{
+        width: 100%;
+    }
+    
+    .fotoIslaMargarita1{
+        width: 100%;
+    }
+    
+    .fotoVelho{
+        width: 100%;
+    }
+    .fotoCueva{
+        width: 100%;
+    }
+}
+
 /*---------------------------------------------------------------------------------
 ----------------------------MEDIAQUERIE LLEGAR----------------------------------------*/
 
@@ -1703,7 +1739,11 @@ footer{
         font-size: 1.1em;
         transition: all .5s ease;
     }
+<<<<<<< HEAD
+
+=======
     
+>>>>>>> 0ea8fe19ac915567fad91bc57a592c050b5d482e
     .parrafoRutas{
         width: 80%;
     }
