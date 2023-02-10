@@ -27,7 +27,7 @@ body {
     width: 90px !important;
     height: 90px !important;
     margin-top: 30px !important;
-    margin-left: 30px !important;
+    margin-left: 50px !important;
     background-image: url(img/hero/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@ nav ul li{
     width: 90%;
     height: auto;
     color: black;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
@@ -212,7 +212,7 @@ nav ul li{
 .parrafoHungria1{
     padding-top: 30px;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     height: auto;
     color: black;
     font-size: 1em;
@@ -289,6 +289,22 @@ nav ul li{
     font-size: 1.3em;
     font-weight: 400;
     color: black;
+}
+
+.textoOtonioMedia{
+    font-size: 1.3em;
+}
+
+.textoIslaMedia{
+    font-size: 1.3em;
+}
+
+.textoVelhoMedia{
+    font-size: 1.3em;
+}
+
+.textoCuevaMedia{
+    font-size: 1.3em;
 }
 
 .fotoIslaMargarita{
@@ -791,10 +807,9 @@ footer{
 
 .fotoFinalLlegar{
     margin: 0 auto;
-    margin-top: 30px;
-    width: 900px;
-    height: 500px;
-    background-image: url(img/llegar/cruceroDanubio.jpg);
+    margin-top: 60px;
+    height: 550px;
+    background-image: url(img/llegar/barco.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1287,6 +1302,28 @@ footer{
     font-weight: 400;
     color: black;
 }
+
+.fotoScroll{
+    margin-top: 70px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    background-image: url(img/hero/pexels-musicfactory-lehmannsound-64109.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 75%;
+}
+
+.centradoText{
+    margin: 0 auto;
+    padding-top: 145px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+}
+
 /*---------------------------------------------------------------------------------
 ----------------------------MEDIAQUERIE NAV----------------------------------------*/
 
@@ -1461,7 +1498,7 @@ footer{
     }
     .parrafoHungria{
         width: 45%;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .fotoIslaMargarita{
         margin: 0 auto;
@@ -1739,11 +1776,7 @@ footer{
         font-size: 1.1em;
         transition: all .5s ease;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 0ea8fe19ac915567fad91bc57a592c050b5d482e
     .parrafoRutas{
         width: 80%;
     }
@@ -1779,4 +1812,8 @@ footer{
     .div2{
         width: 300px;
     } 
+
+    .centradoText{
+        padding-top: 100px;
+    }
 }
